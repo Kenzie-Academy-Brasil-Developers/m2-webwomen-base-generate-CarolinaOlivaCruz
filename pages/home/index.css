@@ -129,11 +129,16 @@ aside {
     background-color: rgb(247, 205, 205);
 }
 
-@media(min-width: 700px){
+@media(min-width: 700px) {
     .button-nav {
         width: 296px;
         height: 48px;
-        
+
+    }
+
+    .cards-ul li {
+       
+        height: 307px;
     }
 
     .divTitle-p {
