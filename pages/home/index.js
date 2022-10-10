@@ -21,6 +21,7 @@ function createCards(array) {
         pDescription.innerText = element.descrition
     
         const cardFooter = document.createElement('div')
+        cardFooter.className = 'card-footer'
         const pFooter = document.createElement('p')
         pFooter.innerText = element.modalities
         const button = document.createElement('button')
