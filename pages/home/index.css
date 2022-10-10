@@ -89,6 +89,16 @@ main {
     gap: 25px;
 }
 
+.card-title h4 {
+    font-family: 'Poppins';
+    font-size: 22px;
+}
+
+.divTitle-p {
+    display: flex;
+    justify-content: space-between;
+}
+
 .card-footer {
     display: flex;
     flex-direction: column;
@@ -117,4 +127,27 @@ main {
 aside {
     height: 300px;
     background-color: rgb(247, 205, 205);
+}
+
+@media(min-width: 700px){
+    .button-nav {
+        width: 296px;
+        height: 48px;
+        
+    }
+
+    .divTitle-p {
+        justify-content: left;
+        gap: 30px;
+    }
+
+    .card-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .button-submit {
+        width: 150px;
+    }
 }

@@ -8,9 +8,11 @@ function createCards(array) {
         const cardLi = document.createElement('li')
 
         const cardTitle = document.createElement('div')
+        cardTitle.className = 'card-title'
         const titleH4 = document.createElement('h4')
         titleH4.innerText = element.title
         const divTitleP = document.createElement('div')
+        divTitleP.className = 'divTitle-p'
         const p1 = document.createElement('p')
         p1.innerText = element.enterprise
         const p2 = document.createElement('p')
